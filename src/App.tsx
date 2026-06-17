@@ -24,7 +24,7 @@ const detectVerdict = (text: string): Verdict => {
   return 'UNKNOWN';
 };
 
-const WEBHOOK_URL = 'https://harness-roving-twelve.ngrok-free.app/webhook/9a214cf4-0d63-4a50-b941-00cc1bf51412';
+const WEBHOOK_URL = 'https://harness-roving-twelve.ngrok-free.dev/webhook/9a214cf4-0d63-4a50-b941-00cc1bf51412';
 
 function App() {
   const [isDragging, setIsDragging] = useState(false);
